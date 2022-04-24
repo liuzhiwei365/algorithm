@@ -1,0 +1,8 @@
+
+grant codeBase "file:${{java.ext.dirs}}/*" {
+    permission  java.security.AllPermission;
+};
+grant {
+    permission  java.io.FilePermission  "/Users/liuzhiwei/idea pro/algorithm/java_api/src/main/resources/-" , "read,write";
+};
+
